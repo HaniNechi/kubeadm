@@ -21,6 +21,5 @@ controllerManager:
     readOnly: true
     pathType: File
 networking:
-  serviceSubnet: "10.96.0.0/12"
-  podSubnet: "10.224.0.0/16"
+  podSubnet: "192.168.0.0/16"
   dnsDomain: "cluster.local"
